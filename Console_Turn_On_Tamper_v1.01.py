@@ -1,6 +1,29 @@
-# These scripts are examples and unsupported
-# Make sure requests is installed
-# Turn on Single Console Tamper v1.01
+# Copyright 2019-2020 Sophos Limited
+#
+# Licensed under the GNU General Public License v3.0(the "License"); you may
+# not use this file except in compliance with the License.
+#
+# You may obtain a copy of the License at:
+# https://www.gnu.org/licenses/gpl-3.0.en.html
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+# WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+# implied. See the License for the specific language governing permissions and
+# limitations under the License.
+#
+#
+# Console_Turn_On_Tamper_v1.01.py 
+#
+# Turns Tamper on for all machines in Sophos Central
+#
+#
+# By: Michael Curtis and Robert Prechtel
+# Date: 29/5/2020
+# Version 1.01
+# README: This script is an unsupported solution provided by
+#           Sophos Professional Services
+
 import requests
 import csv
 import configparser
